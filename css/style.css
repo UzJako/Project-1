@@ -1,0 +1,206 @@
+@import 'Font.css';
+body {
+  margin: 0;
+}
+
+#top {
+  background-color: #081a52;
+  color: #fff;
+}
+#top .h-link a {
+  color: #fff;
+  text-decoration: none;
+}
+#top .h-link a:hover {
+  text-decoration: underline;
+}
+#top .sym-uz a {
+  padding: 5px;
+}
+#top .sym-uz a img {
+  height: 24px;
+}
+#top .sym-uz a:first-child img {
+  height: 15px;
+}
+#top .dropdown-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.header {
+  position: relative;
+  left: 0;
+  width: 100%;
+  background: url(../img/qmii.jpg) no-repeat center -150px/cover;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.header ul {
+  position: absolute;
+  z-index: 100;
+}
+.header ul li {
+  display: inline-block;
+}
+.header ul li:hover {
+  background-color: #222;
+}
+.header ul li:hover ul {
+  display: block;
+}
+.header ul li ul {
+  position: absolute;
+  width: 200px;
+  background-color: #222;
+  display: none;
+  padding: 0;
+}
+.header ul li ul li {
+  display: block;
+  color: #fff;
+  padding: 0 15px;
+  border-left: 3px solid #222;
+}
+.header ul li ul li:hover {
+  background-color: #000;
+  border-left-color: #fff;
+}
+.header a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 5px;
+}
+.header img {
+  width: 58px;
+  height: 58px;
+  margin-right: 15px;
+  display: block;
+  float: left;
+}
+.header p {
+  color: #fff;
+  font-weight: bold;
+}
+.header .carousel-inner img {
+  width: 70%;
+  height: 350px;
+}
+.header .carousel-inner .slide-caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 100%;
+  color: #fff;
+  background-color: #314573;
+}
+.header .carousel-control-next {
+  right: 0;
+  top: initial;
+  bottom: 30px;
+}
+.header .carousel-control-prev {
+  top: initial;
+  left: initial;
+  right: 50px;
+  bottom: 30px;
+}
+.header .iact-serv {
+  background-color: rgba(52, 62, 85, 0.5);
+  color: #fff;
+  padding: 0 20px;
+}
+.header .iact-serv a {
+  color: #fff;
+  text-decoration: none;
+}
+.header .iact-serv .vertual-reception {
+  background: url(../img/envelope.svg) no-repeat 0 20px/50px;
+  border-bottom: 2px solid #fff;
+  padding: 20px 0 20px 60px;
+  position: relative;
+}
+.header .iact-serv .vertual-reception a {
+  text-decoration: underline;
+  font-size: 1em;
+}
+.header .iact-serv .vertual-reception a i {
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.header .iact-serv .vertual-reception a:hover {
+  text-decoration: none;
+}
+.header .iact-serv .vertual-reception a:hover i {
+  display: flex;
+}
+.header .iact-serv .electron-address {
+  border-bottom: 2px solid #fff;
+  position: relative;
+  text-align: center;
+  padding: 5px 0;
+}
+.header .iact-serv .electron-address a {
+  font-size: 1.3em;
+}
+.header .iact-serv .electron-address a i {
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.header .iact-serv .electron-address a:hover {
+  text-decoration: none;
+}
+.header .iact-serv .electron-address a:hover i {
+  display: flex;
+}
+.header .iact-serv .online-contract {
+  text-align: center;
+}
+.header .iact-serv .online-contract a {
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.middle {
+  background-color: #ddd;
+}
+.middle ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.middle ul li {
+  display: inline-block;
+}
+.middle ul li a {
+  color: #333;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+.middle ul li a:hover {
+  text-decoration: underline;
+}

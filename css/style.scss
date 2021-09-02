@@ -1,0 +1,227 @@
+@import 'Font.css';
+body {
+    margin: 0;
+}
+#top {
+    background-color: #081a52;
+    color: #fff;
+    .h-link {
+        a {
+            color: #fff;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+       
+    }
+
+    .sym-uz {
+       a {
+           padding: 5px;
+           img {
+                height: 24px;
+           }
+       }
+       a:first-child {
+           img {
+               height: 15px;
+           }
+       }
+
+    }
+
+    .dropdown-toggle {
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #fff;
+    }
+}
+.header {
+    position: relative;
+    left: 0;
+    width: 100%;
+    
+    background: url(../img/qmii.jpg) no-repeat center -150px / cover;
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,.6);
+        
+    }
+    ul {
+        position: absolute;
+        z-index: 100;
+        li {
+            display: inline-block;
+            
+            &:hover {
+                background-color: #222;
+                ul {
+                    display: block;
+                }
+            }
+            ul {
+                position: absolute;
+                width: 200px;
+                background-color: #222;
+                display: none;
+                padding: 0;
+                li {
+                    display: block;
+                    color: #fff;
+                    padding: 0 15px;
+                    border-left: 3px solid #222;
+
+                    &:hover {
+                        background-color: #000;
+                        border-left-color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    a {
+        color: #fff;
+        display: inline-block;
+        text-decoration: none;
+        padding: 5px;
+       
+    }
+    img {
+        width: 58px;
+        height: 58px;
+        margin-right: 15px;
+        display: block;
+        float: left;
+    }
+   p {
+       color: #fff;
+       font-weight: bold;
+      }
+      .carousel-inner {
+          img {
+              width: 70%;
+              height: 350px;
+              }
+          .slide-caption {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 30%;
+            height: 100%;
+            color: #fff;
+            background-color: #314573;
+        }
+          
+          
+      }
+      .carousel-control-next {
+          right: 0;
+          top: initial;
+          bottom: 30px;
+      }
+      .carousel-control-prev {
+          top: initial;
+          left: initial;
+          right: 50px;
+          bottom: 30px;
+      }
+     .iact-serv {
+         background-color: rgba(52,62,85,0.5 );
+         color: #fff;
+         padding: 0 20px;
+         a {
+             color: #fff;
+             text-decoration: none;
+         }
+         .vertual-reception {
+             background: url(../img/envelope.svg) no-repeat 0 20px/50px;
+             border-bottom: 2px solid #fff;
+             padding: 20px 0 20px 60px;
+             position: relative;
+             a {
+                 text-decoration: underline;
+                 font-size: 1em;
+                 i {
+                    font-size: 2em;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                 }
+                 &:hover {
+                     text-decoration: none;
+                     i {
+                         display: flex;
+                     }
+                 }
+             }
+         }
+         .electron-address {
+             border-bottom: 2px solid #fff;
+             position: relative;
+             text-align: center;
+             padding: 5px 0;
+             a {
+                 font-size: 1.3em;
+                 i {
+                    font-size: 2em;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    display: none;
+                    align-items: center;
+                    justify-content: center;
+                 }
+                 &:hover {
+                     text-decoration: none;
+                     i {
+                         display: flex;
+                     }
+                 }
+             }
+         }
+         .online-contract {
+            text-align: center;
+            a {
+                font-size: 1.8em;
+                font-weight: 500;
+            }
+         }
+     }
+}
+.middle {
+    background-color: #ddd;
+    ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        li {
+            display: inline-block;
+            a {
+                color: #333;
+                display: block;
+                padding: 10px;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+      
+    
+    
