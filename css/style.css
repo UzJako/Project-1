@@ -14,6 +14,13 @@ body {
 #top .h-link a:hover {
   text-decoration: underline;
 }
+#top span a {
+  color: #fff;
+  text-decoration: none;
+}
+#top span a:hover {
+  text-decoration: underline;
+}
 #top .sym-uz a {
   padding: 5px;
 }
@@ -103,6 +110,7 @@ body {
   width: 30%;
   height: 100%;
   color: #fff;
+  padding: 20px;
   background-color: #314573;
 }
 .header .carousel-control-next {
@@ -185,6 +193,7 @@ body {
 }
 
 .middle {
+  position: sticky;
   background-color: #ddd;
 }
 .middle ul {
@@ -203,4 +212,213 @@ body {
 }
 .middle ul li a:hover {
   text-decoration: underline;
+}
+
+.under-middle .title-1 {
+  margin-top: 30px;
+}
+.under-middle .title-1 h4 {
+  width: 110px;
+  font-weight: bold;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+}
+.under-middle .title-1 h4::after {
+  content: "";
+  width: 70%;
+  position: absolute;
+  left: 0;
+  top: 37px;
+  border-bottom: 3px solid #000;
+}
+.under-middle .fakultet .title-2 {
+  width: 262.5px;
+  background-color: #343e55;
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 20px;
+}
+.under-middle .fakultet ul {
+  width: 262.5px;
+  background-color: #d2d2d2;
+  padding: 10px 0;
+}
+.under-middle .fakultet ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.under-middle .fakultet ul li:hover {
+  background-color: #999;
+  border-left: 3px solid #343e55;
+  font-weight: bold z;
+}
+.under-middle .fakultet ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  padding: 6px 6px 6px 20px;
+}
+
+.message {
+  background-color: dodgerblue;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 8px 20px 8px 30px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+.message::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 12px;
+  bottom: 15px;
+  border: 1px solid #fff;
+}
+
+.ichi {
+  width: 380px;
+  height: 610px;
+  border: 1px solid #000;
+  position: fixed;
+  border-radius: 10px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #fff;
+  padding: 15px 15px 15px 25px;
+  font-size: 16px;
+  display: none;
+  z-index: 1000;
+  overflow: hidden;
+}
+.ichi .send_message {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  padding: 15px;
+}
+.ichi .send_message .text_field {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.ichi::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 23px;
+  left: 10px;
+  background: #1f89f8;
+}
+.ichi .sss {
+  font-size: 1.2em;
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+}
+.ichi .rasm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ichi .rasm img {
+  width: 100px;
+  height: 100px;
+  margin-top: 30%;
+}
+.ichi p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.ichi .p2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 15px;
+}
+.ichi .sending a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  font-size: 13px;
+  position: absolute;
+  bottom: 60px;
+  left: 125px;
+}
+.ichi .sending a:hover {
+  color: dodgerblue;
+}
+.ichi .sending a i {
+  font-size: 18px;
+}
+
+.struc-menu {
+  padding: 60px 0;
+  background-color: #efefef;
+}
+.struc-menu .title-4 {
+  color: #282828;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 30px;
+  margin-left: 30px;
+}
+.struc-menu .title-5 {
+  color: #282828;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 30px;
+  margin-left: 30px;
+}
+.struc-menu ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+.struc-menu ul li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+.struc-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #252932;
+  padding: 50px 0;
+}
+footer .logo {
+  text-align: center;
+}
+footer .logo img {
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+  margin: 0 50px;
+}
+footer span {
+  width: 40%;
+  height: 1px;
+  background-color: #fff;
+  display: inline-block;
+}
+footer .copyright {
+  color: #fff;
+  text-align: center;
 }
