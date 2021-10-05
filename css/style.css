@@ -50,7 +50,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 .header ul {
   position: absolute;
@@ -252,7 +252,7 @@ body {
 .under-middle .fakultet ul li:hover {
   background-color: #999;
   border-left: 3px solid #343e55;
-  font-weight: bold;
+  font-weight: bold z;
 }
 .under-middle .fakultet ul li a {
   text-decoration: none;
@@ -409,6 +409,7 @@ body {
 }
 
 .sile {
+  position: relative;
   height: 150px;
 }
 .sile a img {
@@ -419,6 +420,24 @@ body {
 }
 .sile a img:hover {
   border: 2px solid #000;
+}
+
+.left {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
+}
+
+.right {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  border: 1px solid #000;
+  width: 10px;
+  height: 10px;
 }
 
 footer {

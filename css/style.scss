@@ -464,6 +464,7 @@ body {
 }
 
 .sile {
+    position: relative;
     height: 150px;
     a {
         img {
@@ -476,8 +477,25 @@ body {
             }
         }
     }
+    
+    
 }
-
+    .left {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        border: 1px solid #000 ;
+        width: 10px;
+        height: 10px;
+    }
+    .right {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        border: 1px solid #000 ;
+        width: 10px;
+        height: 10px;
+    }
 
 footer {
     background-color: #252932;
