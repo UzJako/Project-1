@@ -231,6 +231,7 @@ body {
             }
         }
     }
+    
 }
 .under-middle {
     .title-1 {
@@ -282,6 +283,19 @@ body {
                     
                     
                 }
+            }
+        }
+    }
+    .news {
+        .item {
+            img {
+                float: left;
+                width: 169px;
+                height: 169px;
+                margin-right: 10px;
+            }
+            p {
+                text-align: justify;
             }
         }
     }
@@ -448,6 +462,22 @@ body {
         }
     }
 }
+
+.sile {
+    height: 150px;
+    a {
+        img {
+            width: 250px;
+            padding: 10px 30px;
+            margin: 40px 0;
+            border: 1px solid #999;
+            &:hover {
+                border: 2px solid #000;
+            }
+        }
+    }
+}
+
 
 footer {
     background-color: #252932;

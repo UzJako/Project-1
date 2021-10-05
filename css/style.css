@@ -50,7 +50,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0,0,0,0.6);
 }
 .header ul {
   position: absolute;
@@ -252,13 +252,22 @@ body {
 .under-middle .fakultet ul li:hover {
   background-color: #999;
   border-left: 3px solid #343e55;
-  font-weight: bold z;
+  font-weight: bold;
 }
 .under-middle .fakultet ul li a {
   text-decoration: none;
   color: #000;
   font-size: 14px;
   padding: 6px 6px 6px 20px;
+}
+.under-middle .news .item img {
+  float: left;
+  width: 169px;
+  height: 169px;
+  margin-right: 10px;
+}
+.under-middle .news .item p {
+  text-align: justify;
 }
 
 .message {
@@ -397,6 +406,19 @@ body {
 }
 .struc-menu ul li a:hover {
   text-decoration: underline;
+}
+
+.sile {
+  height: 150px;
+}
+.sile a img {
+  width: 250px;
+  padding: 10px 30px;
+  margin: 40px 0;
+  border: 1px solid #999;
+}
+.sile a img:hover {
+  border: 2px solid #000;
 }
 
 footer {
