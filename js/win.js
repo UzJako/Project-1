@@ -16,5 +16,7 @@ $('.col-12').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
-    autoplayspit:1000
+    autoplayspit:1000,
+    prevArrow: $('.left'),
+    nextArrow: $('.right')
   });
